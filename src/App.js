@@ -20,14 +20,8 @@ function Copyright() {
 
 export default function App() {
   return (
-    <Container maxWidth="sm">
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Create React App example
-        </Typography>
-        <ProTips />
-        <Copyright />
-      </Box>
-    </Container>
+    <div class="container-fluid">
+     <h1>Welcome</h1>
+    </div>
   );
 }
