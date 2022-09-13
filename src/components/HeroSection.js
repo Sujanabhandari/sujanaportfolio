@@ -15,7 +15,7 @@ export default class HeroSection extends Component {
       //     </div>
       //   </div>
       // </div>
-      <div className="container imgContainer">
+      <div className="container-fluid imgContainer">
         <img src="sujanaprofile.JPG" class="img-fluid image-design" alt="Sujana"></img>
       </div>
       
