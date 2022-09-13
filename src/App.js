@@ -5,6 +5,12 @@ import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import ProTips from './ProTips';
 
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+
+import Projects from './components/Projects';
+import ContactForm from './components/ContactForm';
+
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
@@ -21,7 +27,10 @@ function Copyright() {
 export default function App() {
   return (
     <div class="container-fluid">
-     <h1>Welcome</h1>
+      <Navbar />
+      <HeroSection />
+      <Projects />
+      <ContactForm />
     </div>
   );
 }
