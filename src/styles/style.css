@@ -1,0 +1,53 @@
+.bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+  }
+  /* .imgContainer{
+    height: 10px;
+  }  */
+  .image-design{
+    width: 100%;
+    height: auto;
+  }
+ .list-icons,
+  .socials{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  .socials {
+    padding: 2rem 0;
+  }
+  
+  .socials ul li {
+    display: inline-block;
+  }
+  
+  .socials .ico-circle {
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: 0 0 2px white;
+    padding: 1em 1em;
+    margin: 10px;
+  }
+  
+  .socials .ico-circle:hover {
+    background-color: black;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+  }
+  
+  .button-rouded {
+    border-radius: 5rem;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    background-color: #0078ff;
+    margin-top: 20px;
+  }
+

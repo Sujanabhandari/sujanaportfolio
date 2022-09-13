@@ -5,6 +5,12 @@ import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import ProTips from './ProTips';
 
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+
+import Projects from './components/Projects';
+import ContactForm from './components/ContactForm';
+
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
@@ -20,14 +26,11 @@ function Copyright() {
 
 export default function App() {
   return (
-    <Container maxWidth="sm">
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Create React App example
-        </Typography>
-        <ProTips />
-        <Copyright />
-      </Box>
-    </Container>
+    <div class="container-fluid">
+      <Navbar />
+      <HeroSection />
+      <Projects />
+      <ContactForm />
+    </div>
   );
 }
