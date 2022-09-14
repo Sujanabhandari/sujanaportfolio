@@ -8,9 +8,10 @@
     height: 10px;
   }  */
   .image-design{
-    width: 100%;
+    width: 40%;
     height: auto;
   }
+
  .list-icons,
   .socials{
     list-style: none;
@@ -45,9 +46,86 @@
     border-radius: 5rem;
     padding: 0.8rem 2rem;
     font-size: 1.2rem;
-    color: white;
+    color: black;
     text-decoration: none;
-    background-color: #0078ff;
+    background-color: #ffe13a;
     margin-top: 20px;
   }
 
+  .button-color{
+    background-color: #ffe13a;
+    color: black;
+  }
+
+
+.nav-color{
+  background-color: #18223c;
+  position:fixed;
+  width:100%;
+  z-index: 20;
+  top:0;
+}
+
+.icon-top{
+  font-size: 40px;
+  width: 70px;
+  height: 65px;
+  color: white;
+  background-color: #d5c455;
+  border-radius: 50px;
+  box-shadow: 0 0 2px black;
+  position: relative;
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.skill-mf .progress {
+  background-color: #cde1f8;
+  margin: 0.5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: 0.7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: 0.7rem;
+  background-color: #d5c455;
+}
+
+.box-shadow-full {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*--/ Title Left /--*/
+.title-box-2 {
+  margin-bottom: 3rem;
+}
+
+.title-left {
+  font-size: 2rem;
+  position: relative;
+}
+.title-left:before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #d5c455;
+  width: 100px;
+  bottom: -12px;
+} 
+
+.title-s {
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 1.1rem;
+}

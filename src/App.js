@@ -10,7 +10,8 @@ import HeroSection from './components/HeroSection';
 
 import Projects from './components/Projects';
 import ContactForm from './components/ContactForm';
-
+import Experience from './components/Experience';
+import AboutMe from './components/AboutMe';
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
@@ -28,9 +29,12 @@ export default function App() {
   return (
     <div class="container-fluid">
       <Navbar />
-      <HeroSection />
+      {/* <HeroSection /> */}
+      <AboutMe />
       <Projects />
+      <Experience />
       <ContactForm />
+      
     </div>
   );
 }

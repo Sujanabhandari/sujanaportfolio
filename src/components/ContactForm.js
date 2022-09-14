@@ -7,7 +7,7 @@ export default class ContactForm extends Component {
     render() {
         return (
 
-            <div className='p-3 bg-dark mt-3'>
+            <div className='p-3 bg-dark mt-3' id="contact">
                 <div className="container text-white p-2">
                     <div className="row">
                         <div className='col'>
