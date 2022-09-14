@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 export default class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg nav-color text-white mb-3">
+            <nav className="navbar navbar-default navbar-fixed-top navbar-expand-lg nav-color text-white mb-3">
                 <div className="container text-white p-3 ">
                     <a className="navbar-brand text-white" href="#">Sujana</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
