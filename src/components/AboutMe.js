@@ -19,7 +19,7 @@ export default class AboutMe extends Component {
                                             <div className="col-sm-6 col-md-7">
                                                 <div className="about-info">
                                                     <p><span className="title-s">Name: </span> <span>Sujana Bhandari</span></p>
-                                                    <p><span className="title-s">Profile: </span> <span>Full stack developer</span></p>
+                                                    <p><span className="title-s">Profile: </span> <span>Software Engineer</span></p>
                                                     <p><span className="title-s">Email: </span> <span>sujana6589@gmail</span></p>
                                                     <p><span className="title-s">Phone: </span> <span>(+49) 15207131143</span></p>
                                                 </div>

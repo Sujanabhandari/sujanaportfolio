@@ -74,17 +74,17 @@ export default class ContactForm extends Component {
                                 </p>
                                 <ul className='list-icons p-3'>
                                     <li><i class="bi bi-geo-alt"></i>Motztrasse 4, 39108</li>
-                                    <li><i class="bi bi-phone"></i> +49 1520</li>
+                                    <li><i class="bi bi-phone"></i> +49 15207131143</li>
                                     <li><span className="bi bi-envelope"></span> sujana6589@gmail.com</li>
                                 </ul>
 
                             </div>
                             <div className="socials">
                                 <ul>
-                                    <li><a href=""><span className="ico-circle"><i className="bi bi-facebook"></i></span></a></li>
-                                    <li><a href=""><span className="ico-circle"><i className="bi bi-instagram"></i></span></a></li>
-                                    <li><a href=""><span className="ico-circle"><i class="bi bi-github"></i></span></a></li>
-                                    <li><a href=""><span className="ico-circle"><i className="bi bi-linkedin"></i></span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/sujanabhandari/"><span className="ico-circle"><i className="bi bi-facebook"></i></span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/sujanabhandari/"><span className="ico-circle"><i className="bi bi-instagram"></i></span></a></li>
+                                    <li><a href="https://github.com/Sujanabhandari"><span className="ico-circle"><i class="bi bi-github"></i></span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/sujanabhandari/"><span className="ico-circle"><i className="bi bi-linkedin"></i></span></a></li>
                                 </ul>
                             </div>
                         </div>
