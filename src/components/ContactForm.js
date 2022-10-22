@@ -6,92 +6,103 @@ import React, { Component } from 'react'
 export default class ContactForm extends Component {
     render() {
         return (
+            <footer className="container-fluid text-center text-lg-start text-white bg-dark-color mt-5">
 
-            <div className='p-3 bg-dark mt-3' id="contact">
-                <div className="container text-white p-2">
-                    <div className="row">
-                        <div className='col'>
-                            <form>
-                                <div className="form-group">
-                                    <label>Name</label>
-                                    <input
-                                        className="form-control"
-                                        id="name"
-                                        type="text"
-                                        placeholder="Name"
-                                        required="required"
-                                        data-validation-required-message="Please enter your name."
-                                    />
-                                </div>
-                                <div className="form-group">
-                                    <label>Email Address</label>
-                                    <input
-                                        className="form-control"
-                                        id="email"
-                                        type="email"
-                                        placeholder="Email Address"
-                                        required="required"
-                                        data-validation-required-message="Please enter your email address."
-                                    />
-                                </div>
-                                <div className="form-group">
-                                    <label>Phone Number</label>
-                                    <input
-                                        className="form-control"
-                                        id="phone"
-                                        type="tel"
-                                        placeholder="Phone Number"
-                                        required="required"
-                                        data-validation-required-message="Please enter your phone number."
-                                    />
-                                </div>
-                                <div className="form-group">
-                                    <label>Message</label>
-                                    <textarea
-                                        className="form-control"
-                                        id="message"
-                                        rows="5"
-                                        placeholder="Message"
-                                        required="required"
-                                        data-validation-required-message="Please enter a message."
-                                    ></textarea>
-                                </div>
-                                <div class="col-md-12 text-center">
-                                    <button type="submit" class="button button-rouded">Send Message</button>
-                                </div>
-                            </form>
-                        </div>
-                        <div className='col'>
+                <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 
-                            <div className="title-box-2 pt-4 pt-md-0">
-                                <h5 className="title-left">
-                                    Get in Touch
-                                </h5>
-                            </div>
-                            <div className="more-info">
-                                <p className="lead">
-                                    You can contact me under this address.
+                    <div className="me-5 d-none d-lg-block">
+                        <span>Get connected with me on social networks:</span>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/sujanabhandari/" className="me-4 link-secondary-design">
+                            <i className="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Sujanabhandari" className="me-4 link-secondary-design">
+                            <i className="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sujanabhandari/" className="me-4 link-secondary-design">
+                            <i className="bi bi-facebook "></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sujanabhandari/" className="me-4 link-secondary-design">
+                            <i className="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </section>
+
+                <section className="">
+                    <div className="container text-center text-md-start mt-5">
+
+                        <div className="row mt-3">
+
+                            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                                <h6 className="text-uppercase fw-bold mb-4">
+                                    <i className="fas fa-gem me-3 text-secondary"></i>Sujana Bhandari
+                                </h6>
+                                <p>
+                                Software Engineer | JavaScript Full Stack Developer | React Developer | MERN & PERN Stack
                                 </p>
-                                <ul className='list-icons p-3'>
-                                    <li><i class="bi bi-geo-alt"></i>Motztrasse 4, 39108</li>
-                                    <li><i class="bi bi-phone"></i> +49 15207131143</li>
-                                    <li><span className="bi bi-envelope"></span> sujana6589@gmail.com</li>
-                                </ul>
+                            </div>
 
+                            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                                <h6 className="text-uppercase fw-bold mb-4">
+                                    Apps
+                                </h6>
+                                <p>
+                                    <a href="https://gopokemonfight.netlify.app/" className="text-reset">Pokemon App</a>
+                                </p>
+                                <p>
+                                    <a href="https://homemadefood.netlify.app/" className="text-reset">HomeMade Food</a>
+                                </p>
+                                <p>
+                                    <a href="https://6308b82d2bde1b0a222e3a6f--loquacious-faun-0d6cd3.netlify.app/" className="text-reset">Creative Blog</a>
+                                </p>
+                                <p>
+                                    <a href="#!" className="text-reset">HackerNews Clone</a>
+                                </p>
                             </div>
-                            <div className="socials">
-                                <ul>
-                                    <li><a href="https://www.linkedin.com/in/sujanabhandari/"><span className="ico-circle"><i className="bi bi-facebook"></i></span></a></li>
-                                    <li><a href="https://www.linkedin.com/in/sujanabhandari/"><span className="ico-circle"><i className="bi bi-instagram"></i></span></a></li>
-                                    <li><a href="https://github.com/Sujanabhandari"><span className="ico-circle"><i class="bi bi-github"></i></span></a></li>
-                                    <li><a href="https://www.linkedin.com/in/sujanabhandari/"><span className="ico-circle"><i className="bi bi-linkedin"></i></span></a></li>
-                                </ul>
+
+                            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                                <h6 className="text-uppercase fw-bold mb-4">
+                                    Useful links
+                                </h6>
+                                <p>
+                                    <a href="#!" className="text-reset">Pricing</a>
+                                </p>
+                                <p>
+                                    <a href="#!" className="text-reset">Settings</a>
+                                </p>
+                                <p>
+                                    <a href="#!" className="text-reset">Orders</a>
+                                </p>
+                                <p>
+                                    <a href="#!" className="text-reset">Help</a>
+                                </p>
                             </div>
+
+                            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                                <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+                                <p><i className="fas fa-home me-3 text-secondary"></i> Magdeburg, Motztrasse 4, Germany</p>
+                                <p>
+                                    <i className="fas fa-envelope me-3 text-secondary"></i>
+                                    sujana6589@gmail.com
+                                </p>
+                                <p><i className="fas fa-phone me-3 text-secondary"></i> + 49 1520 71311 43</p>
+                            </div>
+
                         </div>
                     </div>
+                </section>
 
+                <div className="text-center p-4" style={{ backgroundColor: 'rgba(0, 0, 0, 0.025)' }}>
+                    © 2022 Copyright:
+                    <a className="text-reset fw-bold" href="https://mdbootstrap.com/">https://sujanabhandari.netlify.app/</a>
                 </div>
-            </div>
+
+            </footer>
 
         )
     }

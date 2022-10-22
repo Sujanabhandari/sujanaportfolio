@@ -5,26 +5,31 @@ import React, { Component } from 'react'
 export default class Projects extends Component {
     render() {
         return (
-            <div className="container text-center mt-3" id="projects">
-                <h1>My Recent Work</h1>
-                <p>Here are a few past design projects I've worked on. Want to see more? Email me.</p>
+            <div className="text-center pt-5" id="projects">
+                <div className='row'>
+                    <div className='col'>
+                        <h1>My Recent Work</h1>
+                        <p>Here are a few past design projects I've worked on. Want to see more? Email me.</p>
+                    </div>
+                </div>
+
                 <div className="row mt-5">
-                <div className="col-lg-4 col-sm-12">
+                    <div className="col-lg-4">
                         <div className="card">
                             <img src="homemade.png" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h4>HomeMade Food </h4>
                                 <p className="card-title">WBS Coding School FInal project to order Home made food. As a user you can create food offer and also order Food.</p>
                                 <p className="card-text"></p>
-                                <a className="btn button-color" 
-                                href="https://github.com/Sujanabhandari/homefood_frontend">GitHub Repo</a>
+                                <a className="btn button-color"
+                                    href="https://github.com/Sujanabhandari/homefood_frontend">GitHub Repo</a>
                                 <a className="btn button-color m-2"
-                                href="https://homemadefood.netlify.app/">Visit Website</a>
+                                    href="https://homemadefood.netlify.app/">Visit Website</a>
                             </div>
                         </div>
                     </div>
-                    
-                    <div className="col-lg-4 col-sm-12">
+
+                    <div className="col-lg-4">
                         <div className="card">
                             <img src="pokemonfight.png" className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -37,17 +42,17 @@ export default class Projects extends Component {
                         </div>
                     </div>
 
-                    <div className="col-lg-4 col-sm-12">
+                    <div className="col-lg-4">
                         <div className="card">
                             <img src="cms.png" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h4>Creative Blog</h4>
                                 <p className="card-title">WBS Coding School project to create a Node Express API server, and a React App to display blogs.</p>
                                 <p className="card-text"></p>
-                                <a target="_blank" 
-                                href="https://github.com/Sujanabhandari/base_react_project" className="btn button-color">GitHub Repo</a>
                                 <a target="_blank"
-                                 href="https://6308b82d2bde1b0a222e3a6f--loquacious-faun-0d6cd3.netlify.app/" className="btn button-color m-2">Visit Website</a>
+                                    href="https://github.com/Sujanabhandari/base_react_project" className="btn button-color">GitHub Repo</a>
+                                <a target="_blank"
+                                    href="https://6308b82d2bde1b0a222e3a6f--loquacious-faun-0d6cd3.netlify.app/" className="btn button-color m-2">Visit Website</a>
                             </div>
                         </div>
                     </div>

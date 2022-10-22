@@ -4,6 +4,9 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import "bootstrap/dist/js/bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import App from './App';
 import theme from './theme';
 import './styles/style.css';

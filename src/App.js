@@ -27,14 +27,17 @@ function Copyright() {
 
 export default function App() {
   return (
-    <div class="container-fluid">
+    <>
       <Navbar />
-      {/* <HeroSection /> */}
-      <AboutMe />
-      <Projects />
-      <Experience />
+
+      <div className="container">
+        <AboutMe />
+        <Projects />
+        <Experience />
+      </div>
       <ContactForm />
-      
-    </div>
+
+    </>
+
   );
 }
