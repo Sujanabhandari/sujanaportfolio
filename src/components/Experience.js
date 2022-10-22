@@ -12,8 +12,8 @@ export default class Experience extends Component {
                 </div>
                 <div className="row mt-5">
                     <div className="col-lg-6 col-sm-12">
-                        <div className="card p-4">
-                            <div className="icon-top"><span><i class="bi bi-laptop"></i></span></div>
+                        <div className="card p-4 h-100">
+                            <div className="icon-top text-center"><span><i class="bi bi-laptop"></i></span></div>
                             <h2>FULL-STACK
                                 WEB & APP DEVELOPMENT BOOTCAMP</h2>
                             <p>July 2022 - October 2022</p>
@@ -32,9 +32,9 @@ export default class Experience extends Component {
 
 
                     <div className="col-lg-6 col-sm-12">
-                        <div className="card p-4">
+                        <div className="card p-4 h-100">
                             {/* <img src="pokemonfight.png" className="card-img-top" alt="..." /> */}
-                            <div className="icon-top"><span><i class="bi bi-laptop"></i></span></div>
+                            <div className="icon-top text-center"><span><i class="bi bi-laptop"></i></span></div>
                             <h2>Bachelor in Software Engineering</h2>
                             <p>Sep 2015 - Sep 2029</p>
                             <div className="card-body">
@@ -57,9 +57,9 @@ export default class Experience extends Component {
                 </div>
                 <div className="row mt-5">
                     <div className="col-lg-6 col-sm-12">
-                        <div className="card p-4">
+                        <div className="card p-4 h-100">
                             {/* <img src="pokemonfight.png" className="card-img-top" alt="..." /> */}
-                            <div className="icon-top"><span><i class="bi bi-person-workspace"></i></span></div>
+                            <div className="icon-top text-center"><span><i class="bi bi-person-workspace"></i></span></div>
                             <h2>Software Developer</h2>
                             <p>March 2022 - July 2020</p>
                             <div className="card-body">
@@ -81,9 +81,9 @@ export default class Experience extends Component {
 
 
                     <div className="col-lg-6 col-sm-12">
-                        <div className="card p-4">
+                        <div className="card p-4 h-100">
                             {/* <img src="pokemonfight.png" className="card-img-top" alt="..." /> */}
-                            <div className="icon-top"><span><i class="bi bi-person-workspace"></i></span></div>
+                            <div className="icon-top text-center"><span><i class="bi bi-person-workspace"></i></span></div>
                             <h2>Software Developer Intern</h2>
                             <p>November 2022 - April 2021</p>
                             <div className="card-body">

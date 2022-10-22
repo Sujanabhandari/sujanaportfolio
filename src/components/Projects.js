@@ -15,7 +15,7 @@ export default class Projects extends Component {
 
                 <div className="row mt-5">
                     <div className="col-lg-4">
-                        <div className="card">
+                        <div className="card h-100">
                             <img src="homemade.png" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h4>HomeMade Food </h4>
@@ -30,7 +30,7 @@ export default class Projects extends Component {
                     </div>
 
                     <div className="col-lg-4">
-                        <div className="card">
+                        <div className="card h-100">
                             <img src="pokemonfight.png" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h4>Pokemon Fight </h4>
@@ -43,7 +43,7 @@ export default class Projects extends Component {
                     </div>
 
                     <div className="col-lg-4">
-                        <div className="card">
+                        <div className="card h-100">
                             <img src="cms.png" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h4>Creative Blog</h4>
