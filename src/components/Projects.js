@@ -52,7 +52,7 @@ export default class Projects extends Component {
                                 <a target="_blank"
                                     href="https://github.com/Sujanabhandari/base_react_project" className="btn button-color">GitHub Repo</a>
                                 <a target="_blank"
-                                    href="https://6308b82d2bde1b0a222e3a6f--loquacious-faun-0d6cd3.netlify.app/" className="btn button-color m-2">Visit Website</a>
+                                    href="https://blogcreative.netlify.app/" className="btn button-color m-2">Visit Website</a>
                             </div>
                         </div>
                     </div>
