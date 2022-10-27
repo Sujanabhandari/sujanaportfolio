@@ -4,26 +4,27 @@ import React, { Component } from 'react'
 export default class Experience extends Component {
     render() {
         return (
-            <div className="container text-center mt-3" id="experience">
-                <h1>Education & Experiences</h1>
+            <div className="text-start pt-5" id="experience">
+                <div className='row'>
+                    <div className='col'>
+                    <h1>Education & Experiences</h1>
+                    </div>
+                </div>
                 <div className="row mt-5">
                     <div className="col-lg-6 col-sm-12">
-                        <div className="card p-2">
-                            {/* <img src="pokemonfight.png" className="card-img-top" alt="..." /> */}
-                            <div className="icon-top"><span><i class="bi bi-laptop"></i></span></div>
+                        <div className="card p-4 h-100">
+                            <div className="icon-top text-center"><span><i class="bi bi-laptop"></i></span></div>
                             <h2>FULL-STACK
                                 WEB & APP DEVELOPMENT BOOTCAMP</h2>
                             <p>July 2022 - October 2022</p>
                             <div className="card-body">
                                 <h4>Professional Full-Time Training </h4>
-                                {/* <p className="card-title">WBS Coding School project to create a Node Express API server, and a React App to access and display Pokemon data.</p>
-                        <p className="card-text"></p> */}
                                 <p></p>
                                 <ul className='list-icons p-3'>
                                     <li>JavaScript Full-Stack Training (PERN and MERN Stack)</li>
                                     <li>Worked and developed web applications (front-end, back-end, and full-stack) in a team</li>
-                                    <li>Backend: 
-                                    NodeJS/ExpressJS,Overview APIs (REST, GraphQL), Databases: PostgreSQL, MySQL, MongoDB  </li>
+                                    <li>Backend:
+                                        NodeJS/ExpressJS,Overview APIs (REST, GraphQL), Databases: PostgreSQL, MySQL, MongoDB  </li>
                                 </ul>
                             </div>
                         </div>
@@ -31,9 +32,9 @@ export default class Experience extends Component {
 
 
                     <div className="col-lg-6 col-sm-12">
-                        <div className="card p-2">
+                        <div className="card p-4 h-100">
                             {/* <img src="pokemonfight.png" className="card-img-top" alt="..." /> */}
-                            <div className="icon-top"><span><i class="bi bi-laptop"></i></span></div>
+                            <div className="icon-top text-center"><span><i class="bi bi-laptop"></i></span></div>
                             <h2>Bachelor in Software Engineering</h2>
                             <p>Sep 2015 - Sep 2029</p>
                             <div className="card-body">
@@ -47,7 +48,7 @@ export default class Experience extends Component {
                                     <li>Web Technology</li>
                                     <li>Data Structure And Algorithms</li>
                                     <li>Object Oriented Programming</li>
-                                    <li>Project Management</li>
+                                    {/* <li>Project Management</li> */}
                                 </ul>
                             </div>
                         </div>
@@ -56,9 +57,9 @@ export default class Experience extends Component {
                 </div>
                 <div className="row mt-5">
                     <div className="col-lg-6 col-sm-12">
-                        <div className="card p-2">
+                        <div className="card p-4 h-100">
                             {/* <img src="pokemonfight.png" className="card-img-top" alt="..." /> */}
-                            <div className="icon-top"><span><i class="bi bi-person-workspace"></i></span></div>
+                            <div className="icon-top text-center"><span><i class="bi bi-person-workspace"></i></span></div>
                             <h2>Software Developer</h2>
                             <p>March 2022 - July 2020</p>
                             <div className="card-body">
@@ -80,9 +81,9 @@ export default class Experience extends Component {
 
 
                     <div className="col-lg-6 col-sm-12">
-                        <div className="card p-2">
+                        <div className="card p-4 h-100">
                             {/* <img src="pokemonfight.png" className="card-img-top" alt="..." /> */}
-                            <div className="icon-top"><span><i class="bi bi-person-workspace"></i></span></div>
+                            <div className="icon-top text-center"><span><i class="bi bi-person-workspace"></i></span></div>
                             <h2>Software Developer Intern</h2>
                             <p>November 2022 - April 2021</p>
                             <div className="card-body">
