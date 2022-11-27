@@ -42,7 +42,7 @@ export default class AboutMe extends Component {
                                     <div className="progress">
                                         <div className="progress-bar" role="progressbar" aria-valuenow="80" style={{ width: '80%' }} aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <span>JAVASCRIPT</span>
+                                    <span>JavaScript</span>
                                     <div className="progress">
                                         <div className="progress-bar" role="progressbar" aria-valuenow="90" style={{ width: '90%' }} aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
@@ -50,7 +50,7 @@ export default class AboutMe extends Component {
                                     <div className="progress">
                                         <div className="progress-bar" role="progressbar" aria-valuenow="50" style={{ width: '50%' }} aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <span>JAVASCRIPT</span>
+                                    <span>TypeScript</span>
                                     <div className="progress">
                                         <div className="progress-bar" role="progressbar" aria-valuenow="90" style={{ width: '90%' }} aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
