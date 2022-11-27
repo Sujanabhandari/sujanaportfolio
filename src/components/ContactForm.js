@@ -50,35 +50,16 @@ export default class ContactForm extends Component {
                                     Apps
                                 </h6>
                                 <p>
-                                    <a href="https://gopokemonfight.netlify.app/" className="text-reset">Pokemon App</a>
+                                    <a href="https://gopokemonfight.netlify.app/" target="_blank" rel="noreferrer" className="text-reset">Pokemon App</a>
                                 </p>
                                 <p>
-                                    <a href="https://homemadefood.netlify.app/" className="text-reset">HomeMade Food</a>
+                                    <a href="https://homemadefood.netlify.app/" target="_blank" rel="noreferrer" className="text-reset">HomeMade Food</a>
                                 </p>
                                 <p>
-                                    <a href="https://6308b82d2bde1b0a222e3a6f--loquacious-faun-0d6cd3.netlify.app/" className="text-reset">Creative Blog</a>
+                                    <a target="_blank" rel="noreferrer" href="https://6308b82d2bde1b0a222e3a6f--loquacious-faun-0d6cd3.netlify.app/" className="text-reset">Creative Blog</a>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">HackerNews Clone</a>
-                                </p>
-                            </div>
-
-                            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-                                <h6 className="text-uppercase fw-bold mb-4">
-                                    Useful links
-                                </h6>
-                                <p>
-                                    <a href="#!" className="text-reset">Pricing</a>
-                                </p>
-                                <p>
-                                    <a href="#!" className="text-reset">Settings</a>
-                                </p>
-                                <p>
-                                    <a href="#!" className="text-reset">Orders</a>
-                                </p>
-                                <p>
-                                    <a href="#!" className="text-reset">Help</a>
+                                    <a target="_blank" rel="noreferrer" className="text-reset" href="https://employeeregistry.netlify.app/">Employee Registry</a>
                                 </p>
                             </div>
 
@@ -99,7 +80,7 @@ export default class ContactForm extends Component {
 
                 <div className="text-center p-4" style={{ backgroundColor: 'rgba(0, 0, 0, 0.025)' }}>
                     © 2022 Copyright:
-                    <a className="text-reset fw-bold" href="https://mdbootstrap.com/">https://sujanabhandari.netlify.app/</a>
+                    <a className="text-reset fw-bold" href="https://sujanabhandari.netlify.app/">https://sujanabhandari.netlify.app/</a>
                 </div>
 
             </footer>
